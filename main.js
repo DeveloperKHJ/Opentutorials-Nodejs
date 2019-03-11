@@ -34,7 +34,7 @@ var app = http.createServer(function(request,response){
                     var title = queryData.id;
                     var sanitizedTitle = sanitizeHtml(title);
                     var sanitizedDescription = sanitizeHtml(description);
-                    var html = template.html(title, list,
+                    var html = template.html(sanitizedTitle, list,
                         `<h2>${sanitizedTitle}</h2>${sanitizedDescription}`,
                         `<a href="/create">create</a> 
                          <a href="/update?id=${sanitizedTitle}">update</a>
