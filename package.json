@@ -20,6 +20,6 @@
   },
   "homepage": "https://github.com/DeveloperKHJ/Opentutorials-Nodejs#readme",
   "dependencies": {
-    "sanitize-html": "^1.22.1"
+    "sanitize-html": "^2.3.2"
   }
 }
